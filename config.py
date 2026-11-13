@@ -6,7 +6,7 @@ load_dotenv()
 
 # LLM
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
-LLM_MODEL = "llama-3.1-70b-versatile"        # for answers + summaries
+LLM_MODEL = "openai/gpt-oss-120b"        # for answers + summaries
 VISION_MODEL = "llama-3.2-90b-vision-preview" # for image descriptions
 
 # Embeddings
